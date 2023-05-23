@@ -6,7 +6,7 @@ from hangman_art import stages, logo
 
 print(logo)
 chosen_word = random.choice(word_list)
-print(f"DEBUG: The chosen_word is: {chosen_word}.")
+# print(f"DEBUG: The chosen_word is: {chosen_word}.")
 display = []
 word_length = len(chosen_word)
 lives = 6 # number of stages the hangman has
