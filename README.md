@@ -6,4 +6,6 @@ The course can be found on [Udemy](https://www.udemy.com/) here [100 Days of Cod
 
 ## Running Code Hosted on `replit.com`
 - [Day 3: Treasure Island Game](https://replit.com/@Rojomon/treasure-island-start?v=1)
+- [Day 4: Rock Paper Scissors](https://replit.com/@Rojomon/rock-paper-scissors-completed?v=1)
+- [Day 5: Password Generator](https://replit.com/@Rojomon/password-generator?v=1)
 - [Day 7: Hangman](https://replit.com/@Rojomon/Day-7-Hangman?v=1)
