@@ -1,1 +1,68 @@
-{"payload":{"allShortcutsEnabled":true,"fileTree":{"Day-7-Hangman":{"items":[{"name":"hangman-art.py","path":"Day-7-Hangman/hangman-art.py","contentType":"file"},{"name":"hangman.drawio","path":"Day-7-Hangman/hangman.drawio","contentType":"file"},{"name":"hangman_words.py","path":"Day-7-Hangman/hangman_words.py","contentType":"file"}],"totalCount":3},"":{"items":[{"name":"Day-7-Hangman","path":"Day-7-Hangman","contentType":"directory"},{"name":"day-3-treasure-island-game","path":"day-3-treasure-island-game","contentType":"directory"},{"name":"day-4-rock-paper-scissors","path":"day-4-rock-paper-scissors","contentType":"directory"},{"name":"day-5-password-generator","path":"day-5-password-generator","contentType":"directory"},{"name":"day-7-hangman","path":"day-7-hangman","contentType":"directory"},{"name":"README.md","path":"README.md","contentType":"file"}],"totalCount":6}},"fileTreeProcessingTime":7.5778929999999995,"foldersToFetch":[],"reducedMotionEnabled":"system","repo":{"id":644435463,"defaultBranch":"main","name":"100-days-of-code-python-2023","ownerLogin":"rosustefan","currentUserCanPush":true,"isFork":false,"isEmpty":false,"createdAt":"2023-05-23T17:06:02.000+03:00","ownerAvatar":"https://avatars.githubusercontent.com/u/44987333?v=4","public":true,"private":false},"refInfo":{"name":"main","listCacheKey":"v0:1684850763.542073","canEdit":true,"refType":"branch","currentOid":"9c2773d9a40f0caa6c6700389daf0168d4a92d3c"},"path":"Day-7-Hangman/hangman-art.py","currentUser":{"id":44987333,"login":"rosustefan","userEmail":"rosu.stefan@hotmail.com"},"blob":{"rawBlob":"stages = ['''\n  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n=========\n''', '''\n  +---+\n  |   |\n  O   |\n /|\\  |\n /    |\n      |\n=========\n''', '''\n  +---+\n  |   |\n  O   |\n /|\\  |\n      |\n      |\n=========\n''', '''\n  +---+\n  |   |\n  O   |\n /|   |\n      |\n      |\n=========''', '''\n  +---+\n  |   |\n  O   |\n  |   |\n      |\n      |\n=========\n''', '''\n  +---+\n  |   |\n  O   |\n      |\n      |\n      |\n=========\n''', '''\n  +---+\n  |   |\n      |\n      |\n      |\n      |\n=========\n''']\n\nlogo = ''' \n _                                             \n| |                                            \n| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  \n| '_ \\ / _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\ \n| | | | (_| | | | | (_| | | | | | | (_| | | | |\n|_| |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|\n                    __/ |                      \n                   |___/    \n\n'''\n","colorizedLines":null,"stylingDirectives":[[{"start":0,"end":6,"cssClass":"pl-s1"},{"start":7,"end":8,"cssClass":"pl-c1"},{"start":10,"end":13,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"},{"start":5,"end":8,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"},{"start":5,"end":8,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"},{"start":5,"end":8,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":12,"cssClass":"pl-s"},{"start":14,"end":17,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"},{"start":5,"end":8,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"},{"start":5,"end":8,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":7,"cssClass":"pl-s"}],[{"start":0,"end":9,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"}],[],[{"start":0,"end":4,"cssClass":"pl-s1"},{"start":5,"end":6,"cssClass":"pl-c1"},{"start":7,"end":11,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":47,"cssClass":"pl-s"}],[{"start":0,"end":28,"cssClass":"pl-s"}],[{"start":0,"end":0,"cssClass":"pl-s"}],[{"start":0,"end":3,"cssClass":"pl-s"}]],"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":null,"configFilePath":null,"networkDependabotPath":"/rosustefan/100-days-of-code-python-2023/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":false,"repoAlertsPath":"/rosustefan/100-days-of-code-python-2023/security/dependabot","repoSecurityAndAnalysisPath":"/rosustefan/100-days-of-code-python-2023/settings/security_analysis","repoOwnerIsOrg":false,"currentUserCanAdminRepo":true},"displayName":"hangman-art.py","displayUrl":"https://github.com/rosustefan/100-days-of-code-python-2023/blob/main/Day-7-Hangman/hangman-art.py?raw=true","headerInfo":{"blobSize":"861 Bytes","deleteInfo":{"deletePath":"https://github.com/rosustefan/100-days-of-code-python-2023/delete/main/Day-7-Hangman/hangman-art.py","deleteTooltip":"Delete this file"},"editInfo":{"editTooltip":"Edit this file"},"ghDesktopPath":"https://desktop.github.com","gitLfsPath":null,"onBranch":true,"shortPath":"e9aab04","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Frosustefan%2F100-days-of-code-python-2023%2Fblob%2Fmain%2FDay-7-Hangman%2Fhangman-art.py","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":"68","truncatedSloc":"66"},"mode":"file"},"image":false,"isCodeownersFile":null,"isValidLegacyIssueTemplate":false,"issueTemplateHelpUrl":"https://docs.github.com/articles/about-issue-and-pull-request-templates","issueTemplate":null,"discussionTemplate":null,"language":"Python","large":false,"loggedIn":true,"newDiscussionPath":"/rosustefan/100-days-of-code-python-2023/discussions/new","newIssuePath":"/rosustefan/100-days-of-code-python-2023/issues/new","planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/rosustefan/100-days-of-code-python-2023/blob/main/Day-7-Hangman/hangman-art.py","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","dismissStackNoticePath":"/settings/dismiss-notice/publish_stack_from_file","releasePath":"/rosustefan/100-days-of-code-python-2023/releases/new?marketplace=true","showPublishActionBanner":false,"showPublishStackBanner":false},"renderImageOrRaw":false,"richText":null,"renderedFileInfo":null,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"repoOwner":"rosustefan","repoName":"100-days-of-code-python-2023","showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","showDependabotConfigurationBanner":null,"actionsOnboardingTip":null},"truncated":false,"viewable":true,"workflowRedirectUrl":null,"symbols":{"timedOut":false,"notAnalyzed":false,"symbols":[{"name":"stages","kind":"constant","identStart":0,"identEnd":6,"extentStart":0,"extentEnd":477,"fullyQualifiedName":"stages","identUtf16":{"start":{"lineNumber":0,"utf16Col":0},"end":{"lineNumber":0,"utf16Col":6}},"extentUtf16":{"start":{"lineNumber":0,"utf16Col":0},"end":{"lineNumber":55,"utf16Col":4}}},{"name":"logo","kind":"constant","identStart":479,"identEnd":483,"extentStart":479,"extentEnd":860,"fullyQualifiedName":"logo","identUtf16":{"start":{"lineNumber":57,"utf16Col":0},"end":{"lineNumber":57,"utf16Col":4}},"extentUtf16":{"start":{"lineNumber":57,"utf16Col":0},"end":{"lineNumber":67,"utf16Col":3}}}]}},"csrf_tokens":{"/rosustefan/100-days-of-code-python-2023/branches":{"post":"GIZ3RtFFBmOy-dtorAEXdZyvKM08ord2y1-HIT_D1A1DQUSknf6tZByxEf_npL2kFqHKqspct1w7yy9ducdLqQ"}}},"title":"100-days-of-code-python-2023/hangman-art.py at main · rosustefan/100-days-of-code-python-2023","locale":"en"}
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+logo = ''' 
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    
+
+'''
