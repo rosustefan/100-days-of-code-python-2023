@@ -8,8 +8,9 @@ from data import question_data
 question_bank = []
 
 for question in question_data:
-    # Instantiate questions objects and append them to the list
-    question_bank.append(Question(question["text"], question["answer"]))
+    cleaned_question = question["question"].replace("&quot;","'").replace("&#039;", "'")
+    # Instantiate question objects and append them to the question list
+    question_bank.append(Question(cleaned_question, question["correct_answer"]))
 
 if DEBUG:
     for question in question_bank:
