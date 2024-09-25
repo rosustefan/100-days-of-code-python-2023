@@ -24,6 +24,40 @@ COLOURS = [
 # Turtle directions: left, up, right, down
 DIRECTIONS = [0, 90, 180, 270]
 
+# Colours extract using colorgram.extract(<image>, num_colours_to_extract)
+EXTRACTED_RGB_COLOURS = [
+    (244, 242, 237),
+    (228, 234, 241),
+    (245, 237, 241),
+    (235, 243, 238),
+    (214, 157, 85),
+    (33, 105, 151),
+    (238, 215, 94),
+    (153, 75, 52),
+    (125, 168, 199),
+    (209, 134, 163),
+    (156, 60, 81),
+    (22, 39, 54),
+    (212, 85, 61),
+    (176, 162, 47),
+    (200, 85, 119),
+    (135, 184, 150),
+    (56, 119, 90),
+    (240, 213, 4),
+    (25, 46, 37),
+    (228, 167, 186),
+    (64, 46, 34),
+    (87, 157, 100),
+    (9, 99, 75),
+    (34, 166, 189),
+    (40, 60, 102),
+    (228, 175, 166),
+    (179, 189, 213),
+    (95, 126, 173),
+    (68, 34, 44),
+    (105, 42, 60),
+]
+
 
 from turtle import Turtle, Screen
 from os import sys
@@ -89,16 +123,38 @@ def draw_spirograph():
 
 # Create a Hirst-like spot painting
 def spot_painting():
-    # TODO: decide later if to extract colors at runtime, OR create static list to save compute time
-    # Extract most frequent x colors from an image
-    rgb_colors = []
-    colors = colorgram.extract("day-18-turtle-and-gui\image.jpg", 30)
-    for color in colors:
-        red = color.rgb.r
-        green = color.rgb.g
-        blue = color.rgb.b
-        new_color = (red, green, blue)
-        rgb_colors.append(new_color)
+    # 1. Extract most frequent x colors from an image
+    # colors = colorgram.extract("day-18-turtle-and-gui\image.jpg", 30)
+    # rgb_colors = []
+    # for color in colors:
+    #     red = color.rgb.r
+    #     green = color.rgb.g
+    #     blue = color.rgb.b
+    #     new_color = (red, green, blue)
+    #     rgb_colors.append(new_color)
+
+    # 2. Use previously extracted RGB colours to paint circles
+    # Move the cursor/turtle to the bottom-left part of the screen
+    tim.speed("fastest")
+    tim.penup()
+    tim.hideturtle()
+    tim.setheading(225)
+    tim.forward(320)
+    tim.setheading(0)
+    number_of_dots = 100
+
+    for dot_count in range(1, number_of_dots + 1):
+        # Draw circle shape
+        tim.dot(20, random.choice(EXTRACTED_RGB_COLOURS))
+        tim.forward(50)
+
+        # Move the cursor/turtle to the start of the next line
+        if dot_count % 10 == 0:
+            tim.setheading(90)
+            tim.forward(50)
+            tim.setheading(180)
+            tim.forward(500)
+            tim.setheading(0)
 
 
 if __name__ == "__main__":
